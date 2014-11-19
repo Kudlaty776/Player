@@ -8,14 +8,30 @@ public class TrackList extends Track {
     private String TrackListDesc;
     private ArrayList <Track> Tracks;
 
+    public void TrackList(){
+
+    }
+
+    public void setTracks (ArrayList<Track> tracks){
+        tracks = Tracks;
+    }
+
+    public void setTrackListName(String name){
+        name = TrackListName;
+    }
+
+    public void setTrackListDesc(String desc){
+        desc = TrackListDesc;
+    }
+
     public TrackList(String desc, String name){
 
     }
-    public void addTrack(Track newTrack){
-
+    public void addTrack(Track track){
+        Tracks.add(track);
     }
-    public void removeTrack(int trackindex){
-
+    public void removeTrack(Track track){
+        Tracks.remove(track);
     }
     public void editTrackListName (String newName){
 

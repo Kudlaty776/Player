@@ -1,8 +1,16 @@
 package com.company;
 
-public class Player {
+public class Player extends TrackList {
 
     public static void Play(TrackList trackList, int trackIndex){
+
+//        {
+//            if(indexValid(trackIndex)) {
+//                Track track = tracks.get(trackIndex);
+//                Player.play(track.getFilename());
+//                System.out.println("Now playing: " + track.getArtist() + " - " + track.getTitle());
+//            }
+//        }
 
     }
 
