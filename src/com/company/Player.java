@@ -1,5 +1,8 @@
 package com.company;
 
+import android.media.MediaPlayer;
+
+
 public class Player extends TrackList {
 
     public static void Play(TrackList trackList, int trackIndex){
@@ -7,7 +10,7 @@ public class Player extends TrackList {
 //        {
 //            if(indexValid(trackIndex)) {
 //                Track track = tracks.get(trackIndex);
-//                Player.play(track.getFilename());
+//                Player.play(TrackList.getFilePath());
 //                System.out.println("Now playing: " + track.getArtist() + " - " + track.getTitle());
 //            }
 //        }
